@@ -1,0 +1,10 @@
+15:30:51 **** Incremental Build of configuration Debug for project Attempt3 ****
+make -j12 all 
+arm-none-eabi-size  Attempt3.elf 
+   text	   data	    bss	    dec	    hex	filename
+  47272	    104	   2576	  49952	   c320	Attempt3.elf
+Finished building: default.size.stdout
+ 
+
+15:30:51 Build Finished. 0 errors, 0 warnings. (took 591ms)
+

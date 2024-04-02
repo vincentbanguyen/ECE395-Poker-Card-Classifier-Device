@@ -1,0 +1,329 @@
+2024-03-29 14:30:35,527 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-29 14:30:35,605 [INFO] MainUpdater:2873 - connection check result : 10
+2024-03-29 14:30:35,636 [INFO] I2cTimingTraitement:330 - 0x10B0DCFB
+2024-03-29 14:30:35,652 [INFO] I2cTimingTraitement:330 - 0x10B0DCFB
+2024-03-29 14:30:35,668 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-29 14:30:35,668 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.110
+2024-03-29 14:30:35,668 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2504) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:944) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3475) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1816) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:544) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:776) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:315) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:293) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:247) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.11.0.202403141607/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.11.0.202403141607/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.11.0.202403141607/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.11.0.202403141607/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.11.0.202403141607/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-03-29 14:30:35,668 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2024-03-29 14:30:35,683 [INFO] ThirdParty:873 - entering critical section [close project]
+2024-03-29 14:30:35,683 [INFO] ThirdParty:883 - exiting critical section [close project]
+2024-03-29 14:30:35,683 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-03-29 14:30:35,683 [WARN] IpParametersView:151 - Warning: This peripheral hasn't parameters
+2024-03-29 14:30:35,699 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2024-03-29 14:30:35,699 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 418180552 Bytes (1048576000)
+2024-03-29 14:30:35,699 [INFO] MicroXplorer:468 - Change Database Path : 
+2024-03-29 14:30:35,699 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.110
+2024-03-29 14:30:35,699 [INFO] OpenFileManager:312 - Change cursor
+2024-03-29 14:30:35,714 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2024-03-29 14:30:35,714 [INFO] Mcu:2021 - Initializing MCU STM32H7A3Z(G-I)TxQ STM32H7A3ZITxQ STM32H7A3ZIT6Q
+2024-03-29 14:30:37,791 [INFO] Context:663 - Trying to add GPIOservice into a context  which must be forbidden
+2024-03-29 14:30:38,172 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-03-29 14:30:38,173 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-03-29 14:30:38,173 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-03-29 14:30:38,174 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-03-29 14:30:38,175 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-03-29 14:30:38,177 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,178 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:Audio FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,178 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,179 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:CDC FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,179 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,180 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MSC FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,180 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,181 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:HID FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,181 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,182 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_HOST:1.0.0:STMicroelectronics:USB::USB Host:MTP FS::1.0:USB_HOST_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,184 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,185 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,186 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,186 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,187 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,187 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,188 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,188 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,189 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,190 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,190 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,191 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,191 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,192 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,192 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,193 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,193 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,194 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,194 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,195 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,195 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,196 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,196 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,197 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,198 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,199 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,200 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,201 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,201 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,202 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,202 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,203 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2024-03-29 14:30:38,236 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,237 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Audio FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,238 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,238 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:CDC FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,239 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,240 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:DFU FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,240 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,241 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:HID FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,241 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,242 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:Custom HID FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,242 [WARN] ModelIntegratedComponent:182 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,243 [WARN] ModelIntegratedComponent:188 - Modes not found for component STMicroelectronics:USB_DEVICE:1.0.0:STMicroelectronics:USB::USB Device:MSC FS::1.0:USB_DEVICE_1_0_RESTRICTED_FS
+2024-03-29 14:30:38,251 [INFO] ThirdPartyModel:298 - Start build external matchings
+2024-03-29 14:30:38,406 [INFO] ThirdPartyModel:316 - End build external matchings
+2024-03-29 14:30:38,411 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (DCMI) currently not set
+2024-03-29 14:30:38,412 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Request) has Id (DCMI) currently not set
+2024-03-29 14:30:38,413 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (DCMI) currently not set
+2024-03-29 14:30:38,413 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (DCMI) currently not set
+2024-03-29 14:30:38,414 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (DCMI) currently not set
+2024-03-29 14:30:38,415 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (DCMI) currently not set
+2024-03-29 14:30:38,416 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (DCMI) currently not set
+2024-03-29 14:30:38,417 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (DCMI) currently not set
+2024-03-29 14:30:38,417 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (DCMI) currently not set
+2024-03-29 14:30:38,418 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (FIFOMode) has Id (DCMI) currently not set
+2024-03-29 14:30:38,418 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SignalID) has Id (DCMI) currently not set
+2024-03-29 14:30:38,419 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Polarity) has Id (DCMI) currently not set
+2024-03-29 14:30:38,420 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (RequestNumber) has Id (DCMI) currently not set
+2024-03-29 14:30:38,420 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncSignalID) has Id (DCMI) currently not set
+2024-03-29 14:30:38,421 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncPolarity) has Id (DCMI) currently not set
+2024-03-29 14:30:38,421 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncEnable) has Id (DCMI) currently not set
+2024-03-29 14:30:38,422 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (EventEnable) has Id (DCMI) currently not set
+2024-03-29 14:30:38,422 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (DMA) : Parameter (SyncRequestNumber) has Id (DCMI) currently not set
+2024-03-29 14:30:38,425 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2024-03-29 14:30:38,426 [INFO] ImportTextPane:194 - (OptionalMessage_ERROR) IP (RCC) : Parameter (TraceFreq_Value) has invalid value (64000000)
+2024-03-29 14:30:38,904 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 619353720 Bytes (1048576000)
+2024-03-29 14:30:38,935 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2024-03-29 14:30:38,935 [INFO] ThirdParty:835 - entering critical section [change project]
+2024-03-29 14:30:38,936 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2024-03-29 14:30:38,937 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-03-29 14:30:38,938 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-03-29 14:30:38,939 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-03-29 14:30:38,939 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2024-03-29 14:30:38,940 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2024-03-29 14:30:38,941 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-03-29 14:30:38,941 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-03-29 14:30:38,942 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.6
+2024-03-29 14:30:38,942 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.23.0
+2024-03-29 14:30:38,943 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-03-29 14:30:38,943 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-03-29 14:30:38,944 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-03-29 14:30:38,944 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.2.0
+2024-03-29 14:30:38,945 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-03-29 14:30:38,945 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.8.0
+2024-03-29 14:30:38,946 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.2
+2024-03-29 14:30:38,947 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2024-03-29 14:30:38,947 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-03-29 14:30:38,948 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-03-29 14:30:38,948 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-03-29 14:30:38,949 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-03-29 14:30:38,950 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2024-03-29 14:30:38,950 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-03-29 14:30:38,951 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2024-03-29 14:30:38,951 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-03-29 14:30:38,952 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-03-29 14:30:38,952 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-03-29 14:30:38,953 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.5.1
+2024-03-29 14:30:38,954 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.0.0
+2024-03-29 14:30:38,954 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-03-29 14:30:38,955 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2024-03-29 14:30:38,955 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.3.1
+2024-03-29 14:30:38,956 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-03-29 14:30:38,956 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-03-29 14:30:38,957 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-03-29 14:30:38,958 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-03-29 14:30:38,958 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-03-29 14:30:38,959 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-03-29 14:30:38,959 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2024-03-29 14:30:38,960 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 10.0.0
+2024-03-29 14:30:38,961 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.1.0
+2024-03-29 14:30:38,961 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-03-29 14:30:38,962 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-03-29 14:30:38,962 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.0.0
+2024-03-29 14:30:38,963 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-03-29 14:30:38,963 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2024-03-29 14:30:38,964 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2024-03-29 14:30:38,964 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2024-03-29 14:30:38,965 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2024-03-29 14:30:38,966 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-03-29 14:30:38,966 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-03-29 14:30:38,966 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-03-29 14:30:38,967 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.1.0
+2024-03-29 14:30:38,967 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-03-29 14:30:38,968 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-03-29 14:30:38,968 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-03-29 14:30:38,969 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-03-29 14:30:38,970 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-03-29 14:30:38,970 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-03-29 14:30:38,971 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-03-29 14:30:38,972 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.0
+2024-03-29 14:30:38,972 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.1
+2024-03-29 14:30:38,973 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.2.0
+2024-03-29 14:30:38,973 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-03-29 14:30:38,974 [INFO] ThirdParty:841 - exiting critical section [change project]
+2024-03-29 14:30:39,112 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2024-03-29 14:30:39,114 [INFO] PinOutPanel:1561 - setPackage(STM32H7A3ZITxQ,LQFP144)
+2024-03-29 14:30:39,463 [INFO] UtilMem:75 - Before build in PCC Used Memory: 538895736 Bytes (1048576000)
+2024-03-29 14:30:39,680 [INFO] UtilMem:75 - After build in PCC Used Memory: 720831880 Bytes (1048576000)
+2024-03-29 14:30:39,696 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,697 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,698 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,699 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,699 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,700 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,701 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,701 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,702 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,703 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,703 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,704 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,705 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,705 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,706 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,706 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,707 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,708 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,709 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,710 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,711 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,712 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,713 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,713 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,714 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,715 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,715 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,716 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,717 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,718 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,719 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,720 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,721 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,722 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,723 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,724 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,725 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,726 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,727 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,728 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,729 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,730 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,731 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,732 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,733 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,734 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,735 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,736 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,736 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,737 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,738 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,738 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,739 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,740 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,740 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,741 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,742 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,742 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,743 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,744 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,744 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,746 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,747 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,748 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,748 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,749 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,750 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,750 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,752 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,752 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,753 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,753 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,754 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,755 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,756 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,757 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,757 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,758 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,759 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,760 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,761 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,762 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,763 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,763 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,764 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,765 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,766 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2024-03-29 14:30:39,769 [INFO] ApiDbMcu:508 - Load IP Config File for PDM2PCM
+2024-03-29 14:30:39,815 [INFO] CADModel:165 - CPN selected for project levelSTM32H7A3ZIT6Q
+2024-03-29 14:30:39,816 [INFO] CADModel:114 - Register for checkConnection events
+2024-03-29 14:30:39,871 [INFO] OpenFileManager:343 - Restore cursor
