@@ -2,7 +2,7 @@ import numpy as np
 from PIL import Image
 
 pixel_data = []
-with open('puttyExposure2.log', 'r', encoding='utf-8', errors='ignore') as file:
+with open('log2img/ycbcr/puttyExposure2.log', 'r', encoding='utf-8', errors='ignore') as file:
     for line in file:
         parts = line.split(',')
         for part in parts:
