@@ -39,6 +39,7 @@ def ycbcr_to_rgb(YCbCr):
 rgb_data = []
 for pixel in pixel_data:
     rgb = ycbcr_to_rgb(pixel)
+    R, G, B = rgb
     rgb_data.append(rgb)
 
 data = np.array(rgb_data)
