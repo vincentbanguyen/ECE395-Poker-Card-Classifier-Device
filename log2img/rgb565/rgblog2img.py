@@ -12,29 +12,29 @@ with open('log2img/rgb565/putty.log', 'r', encoding='utf-8', errors='ignore') as
                 word = part.split(': ')[1].strip().zfill(8)
                 # word = [R1, G1, B1, R0, G0, B0]
                 print(f"word: {word}")
-                hex_value = int(word, 16)
+                hex_value = int(word, 16)  # Convert hexadecimal string to integer
 
-                R = (hex_value >> 16) & 0xFF
-                G = (hex_value >> 8) & 0xFF
-                B = hex_value & 0xFF
+                # Extract individual R, G, and B components
+                R0 = (hex_value >> 27) & 0b11111
+                G0 = (hex_value >> 21) & 0b111111
+                B0 = (hex_value >> 16) & 0b11111
+                R1 = (hex_value >> 11) & 0b11111
+                G1 = (hex_value >> 5) & 0b111111
+                B1 = hex_value & 0b11111
 
-                R0 = (R >> 3) & 0x1F
-                G0 = (G >> 2) & 0x3F
-                B0 = (B >> 3) & 0x1F
-
-                R1 = (R >> 11) & 0x1F
-                G1 = (G >> 10) & 0x3F
-                B1 = (B >> 11) & 0x1F
+                # Combine components into RGB565 pixel values
+                pixel_1 = (R0 << 11) | (G0 << 5) | B0
+                pixel_2 = (R1 << 11) | (G1 << 5) | B1
 
                 # Print the RGB565 values
                 print(f"Pixel 0: R1={R0}, G1={G0}, B1={B0}")
                 print(f"Pixel 1: R2={R1}, G2={G1}, B2={B1}")
 
-                p0 = [R0, B0, B0]
+                p0 = [R0, G0, B0]
                 p1 = [R1, G1, B1]
                 
-                pixel_data.append(p0)
                 pixel_data.append(p1)
+                pixel_data.append(p0)
 
 # Convert YCbCr to RGB for each pixel
 # rgb_data = []
