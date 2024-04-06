@@ -23,15 +23,12 @@ with open('log2img/rgb565/putty.log', 'r', encoding='utf-8', errors='ignore') as
                 B1 = hex_value & 0b11111
 
                 # Combine components into RGB565 pixel values
-                pixel_1 = (R0 << 11) | (G0 << 5) | B0
-                pixel_2 = (R1 << 11) | (G1 << 5) | B1
-
                 # Print the RGB565 values
                 print(f"Pixel 0: R1={R0}, G1={G0}, B1={B0}")
                 print(f"Pixel 1: R2={R1}, G2={G1}, B2={B1}")
 
-                p0 = [R0, G0, B0]
-                p1 = [R1, G1, B1]
+                p0 = [R0 << 3, G0 << 2, B0 << 3]
+                p1 = [R1 << 3, G1 << 2, B1 << 3]
                 
                 pixel_data.append(p1)
                 pixel_data.append(p0)
