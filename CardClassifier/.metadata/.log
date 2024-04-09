@@ -1,0 +1,18 @@
+!SESSION 2024-04-09 18:20:01.382 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-09 18:20:30.085
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-09 18:20:30.100
+!MESSAGE Log4j2 initialized with config file U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-09 18:20:32.457
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-04-09 18:21:48.918
+!MESSAGE Indexed 'CardClassifier' (24 sources, 85 headers) in 3.73 sec: 7,705 declarations; 55,965 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0031%)

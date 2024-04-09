@@ -1,6 +1,0 @@
-../Core/Src/camera.c:12:10:ov7670_write	136	static
-../Core/Src/camera.c:26:10:ov7670_read	128	static
-../Core/Src/camera.c:42:10:ov7670_init	120	static
-../Core/Src/camera.c:70:10:ov7670_stopCap	112	static
-../Core/Src/camera.c:79:10:ov7670_startCap	120	static
-../Core/Src/camera.c:93:6:HAL_DCMI_FrameEventCallback	16	static
