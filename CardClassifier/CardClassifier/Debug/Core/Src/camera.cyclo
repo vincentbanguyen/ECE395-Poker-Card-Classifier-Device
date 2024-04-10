@@ -1,0 +1,6 @@
+../Core/Src/camera.c:12:10:ov7670_write	1
+../Core/Src/camera.c:26:10:ov7670_read	1
+../Core/Src/camera.c:42:10:ov7670_init	1
+../Core/Src/camera.c:70:10:ov7670_stopCap	1
+../Core/Src/camera.c:79:10:ov7670_startCap	1
+../Core/Src/camera.c:93:6:HAL_DCMI_FrameEventCallback	2

@@ -735,3 +735,565 @@
 2024-04-09 18:31:17,062 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1427mS.
 2024-04-09 18:31:17,082 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 19mS.
 2024-04-09 18:31:17,090 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-04-09 18:46:36,282 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:46:43,442 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:46:44,695 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:46:46,261 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:46:46,975 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:47:38,105 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-09 18:49:42,185 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-09 18:50:23,330 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-09 18:51:04,381 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:51:04,401 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:51:37,512 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:51:37,529 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:51:38,612 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:51:38,629 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 18:53:43,669 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 769987416 Bytes (1073741824)
+2024-04-09 18:53:48,606 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 797339088 Bytes (1073741824)
+2024-04-09 18:53:53,868 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 901067872 Bytes (1073741824)
+2024-04-09 18:54:01,951 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 18:54:01,952 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 18:54:01,952 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 18:54:01,953 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 18:54:01,953 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 18:54:01,954 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 18:54:01,954 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2024-04-09 18:54:01,955 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 18:54:01,956 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 18:54:01,956 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 18:54:01,992 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 18:54:02,099 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 18:54:02,229 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 18:54:02,363 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 18:54:02,477 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 18:54:02,870 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 18:54:02,991 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 18:54:03,108 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 18:54:03,208 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 18:54:03,248 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 18:54:03,328 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 18:54:03,436 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 18:54:03,691 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 18:54:03,776 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 18:54:03,929 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 18:54:04,146 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 18:54:04,385 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 18:54:04,461 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 18:54:04,554 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 18:54:04,661 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 18:54:04,832 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 18:54:05,009 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 18:54:05,188 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 18:54:05,278 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 18:54:05,513 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 18:54:08,846 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3080mS.
+2024-04-09 18:54:08,851 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 18:54:08,895 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 18:54:10,289 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1438mS.
+2024-04-09 18:54:10,308 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 18mS.
+2024-04-09 18:54:10,316 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-04-09 18:58:12,766 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 18:58:58,062 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 423802944 Bytes (1073741824)
+2024-04-09 18:59:03,102 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 453161024 Bytes (1073741824)
+2024-04-09 18:59:08,490 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 499425664 Bytes (1073741824)
+2024-04-09 18:59:16,308 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 18:59:16,309 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 18:59:16,309 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 18:59:16,310 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 18:59:16,310 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 18:59:16,311 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 18:59:16,311 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2024-04-09 18:59:16,312 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 18:59:16,312 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 18:59:16,313 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 18:59:16,324 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 18:59:16,330 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-04-09 18:59:16,331 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 18:59:16,332 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 18:59:16,332 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 18:59:16,333 [INFO] Argument:325 - Argument : Initvalue: null
+2024-04-09 18:59:16,334 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 18:59:16,335 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 18:59:16,335 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 18:59:16,336 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 18:59:16,336 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 18:59:16,337 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 18:59:16,338 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 18:59:16,338 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 18:59:16,339 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 18:59:16,339 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 18:59:16,340 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 18:59:16,341 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 18:59:16,341 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 18:59:16,341 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 18:59:16,342 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 18:59:16,342 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 18:59:16,343 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 18:59:16,343 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 18:59:16,344 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 18:59:16,345 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-04-09 18:59:16,345 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-04-09 18:59:16,346 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-04-09 18:59:16,346 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-04-09 18:59:16,347 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-04-09 18:59:16,348 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-04-09 18:59:16,348 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-04-09 18:59:16,349 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-04-09 18:59:16,349 [INFO] Argument:325 - Argument : Statevalue: null
+2024-04-09 18:59:16,350 [INFO] Argument:335 - Argument : Statevalue: null
+2024-04-09 18:59:16,350 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-04-09 18:59:16,351 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-04-09 18:59:16,351 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-04-09 18:59:16,352 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-04-09 18:59:16,352 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 18:59:16,353 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 18:59:16,354 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 18:59:16,354 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 18:59:16,355 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 18:59:16,355 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 18:59:16,356 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-04-09 18:59:16,356 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-04-09 18:59:16,357 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-04-09 18:59:16,358 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-04-09 18:59:16,358 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-04-09 18:59:16,358 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-04-09 18:59:16,359 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-04-09 18:59:16,359 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-04-09 18:59:16,360 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-04-09 18:59:16,360 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-04-09 18:59:16,462 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 18:59:16,564 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 18:59:16,687 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 18:59:16,785 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 18:59:17,139 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 18:59:17,238 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 18:59:17,345 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 18:59:17,442 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 18:59:17,480 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 18:59:17,557 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 18:59:17,663 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 18:59:17,798 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 18:59:17,864 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 18:59:17,985 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 18:59:18,201 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 18:59:18,364 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 18:59:18,426 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 18:59:18,516 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 18:59:18,624 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 18:59:18,777 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 18:59:18,935 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 18:59:19,099 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 18:59:19,189 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 18:59:19,420 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 18:59:22,748 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3078mS.
+2024-04-09 18:59:22,753 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 18:59:22,798 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 18:59:24,106 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1353mS.
+2024-04-09 18:59:24,126 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 19mS.
+2024-04-09 18:59:24,133 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-04-09 19:06:29,513 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:06:29,550 [INFO] DmaTabbedPanel:205 - Cannot restore the selected Tab for BDMA
+2024-04-09 19:06:32,537 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:06:33,873 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:07:00,056 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 19:07:00,076 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 19:07:17,210 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 19:07:49,019 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 844746848 Bytes (1073741824)
+2024-04-09 19:07:54,157 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 879890592 Bytes (1073741824)
+2024-04-09 19:07:59,647 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 370442432 Bytes (1073741824)
+2024-04-09 19:08:07,507 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 19:08:07,508 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 19:08:07,508 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:08:07,509 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:08:07,509 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 19:08:07,510 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 19:08:07,510 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2024-04-09 19:08:07,511 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 19:08:07,512 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 19:08:07,513 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 19:08:07,522 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 19:08:07,531 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-04-09 19:08:07,531 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:08:07,532 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:08:07,533 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:08:07,533 [INFO] Argument:325 - Argument : Initvalue: null
+2024-04-09 19:08:07,534 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:08:07,535 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:08:07,535 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:08:07,536 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:08:07,536 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:08:07,537 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:08:07,538 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:08:07,538 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:08:07,539 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:08:07,539 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:08:07,540 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:08:07,540 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:08:07,541 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:08:07,541 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:08:07,542 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:08:07,542 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:08:07,543 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:08:07,543 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:08:07,544 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:08:07,545 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:08:07,545 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:08:07,546 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-04-09 19:08:07,546 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-04-09 19:08:07,547 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-04-09 19:08:07,547 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-04-09 19:08:07,548 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-04-09 19:08:07,548 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-04-09 19:08:07,549 [INFO] Argument:325 - Argument : Statevalue: null
+2024-04-09 19:08:07,550 [INFO] Argument:335 - Argument : Statevalue: null
+2024-04-09 19:08:07,550 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-04-09 19:08:07,551 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-04-09 19:08:07,551 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:08:07,552 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:08:07,553 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:08:07,553 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:08:07,554 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:08:07,554 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:08:07,555 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:08:07,555 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:08:07,556 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:08:07,556 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:08:07,557 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:08:07,557 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:08:07,558 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-04-09 19:08:07,558 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-04-09 19:08:07,559 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:08:07,560 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:08:07,560 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-04-09 19:08:07,560 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-04-09 19:08:07,661 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 19:08:07,768 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 19:08:07,893 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 19:08:07,999 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 19:08:08,353 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 19:08:08,448 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 19:08:08,564 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 19:08:08,662 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 19:08:08,700 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 19:08:08,777 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 19:08:08,886 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 19:08:09,031 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 19:08:09,097 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 19:08:09,219 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 19:08:09,418 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 19:08:09,655 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 19:08:09,730 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 19:08:09,820 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 19:08:09,925 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 19:08:10,072 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 19:08:10,249 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 19:08:10,420 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 19:08:10,497 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 19:08:10,739 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 19:08:14,228 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3219mS.
+2024-04-09 19:08:14,233 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 19:08:14,278 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 19:08:15,583 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1349mS.
+2024-04-09 19:08:15,601 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 18mS.
+2024-04-09 19:08:15,609 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-04-09 19:08:52,804 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,476x257,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-09 19:08:58,629 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,476x257,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-04-09 19:10:28,352 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:10:46,647 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 19:10:46,664 [INFO] I2cTimingTraitement:330 - 0x00707CBB
+2024-04-09 19:13:56,547 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 403245944 Bytes (1073741824)
+2024-04-09 19:14:01,821 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 438858680 Bytes (1073741824)
+2024-04-09 19:14:07,362 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 488452704 Bytes (1073741824)
+2024-04-09 19:14:15,265 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 19:14:15,266 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 19:14:15,266 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:14:15,267 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:14:15,267 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 19:14:15,268 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 19:14:15,268 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2024-04-09 19:14:15,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 19:14:15,269 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 19:14:15,270 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 19:14:15,281 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 19:14:15,289 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-04-09 19:14:15,290 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:14:15,291 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:14:15,291 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:14:15,292 [INFO] Argument:325 - Argument : Initvalue: null
+2024-04-09 19:14:15,292 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:14:15,293 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:14:15,294 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:14:15,294 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:14:15,295 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:14:15,295 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:14:15,296 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:14:15,297 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:14:15,297 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:14:15,298 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:14:15,298 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:14:15,299 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:14:15,299 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:14:15,300 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:14:15,300 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:14:15,301 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:14:15,302 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:14:15,363 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:14:15,363 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:14:15,364 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:14:15,365 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:14:15,365 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-04-09 19:14:15,366 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-04-09 19:14:15,366 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-04-09 19:14:15,367 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-04-09 19:14:15,367 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-04-09 19:14:15,368 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-04-09 19:14:15,368 [INFO] Argument:325 - Argument : Statevalue: null
+2024-04-09 19:14:15,369 [INFO] Argument:335 - Argument : Statevalue: null
+2024-04-09 19:14:15,370 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-04-09 19:14:15,370 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-04-09 19:14:15,371 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:14:15,372 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:14:15,372 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:14:15,373 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:14:15,373 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:14:15,374 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:14:15,374 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:14:15,375 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:14:15,375 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:14:15,376 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:14:15,376 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:14:15,377 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:14:15,377 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-04-09 19:14:15,378 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-04-09 19:14:15,378 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:14:15,379 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:14:15,380 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-04-09 19:14:15,380 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-04-09 19:14:15,490 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 19:14:15,591 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 19:14:15,713 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 19:14:15,811 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 19:14:16,181 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 19:14:16,284 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 19:14:16,393 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 19:14:16,488 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 19:14:16,525 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 19:14:16,601 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 19:14:16,707 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 19:14:16,842 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 19:14:16,907 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 19:14:17,029 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 19:14:17,226 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 19:14:17,460 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 19:14:17,532 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 19:14:17,622 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 19:14:17,729 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 19:14:17,873 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 19:14:18,039 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 19:14:18,203 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 19:14:18,279 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 19:14:18,512 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 19:14:21,883 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3129mS.
+2024-04-09 19:14:21,888 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 19:14:21,935 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 19:14:23,179 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1291mS.
+2024-04-09 19:14:23,197 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 17mS.
+2024-04-09 19:14:23,204 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-04-09 19:22:41,259 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:23:20,269 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 795408608 Bytes (1073741824)
+2024-04-09 19:23:25,573 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 823195872 Bytes (1073741824)
+2024-04-09 19:23:31,244 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 924675568 Bytes (1073741824)
+2024-04-09 19:23:39,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 19:23:39,498 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 19:23:39,499 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:23:39,499 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:23:39,500 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 19:23:39,501 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 19:23:39,501 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: CORTEX_M7
+2024-04-09 19:23:39,502 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 19:23:39,502 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 19:23:39,503 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 19:23:39,513 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 19:23:39,521 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-04-09 19:23:39,522 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:23:39,523 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:23:39,523 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:23:39,524 [INFO] Argument:325 - Argument : Initvalue: null
+2024-04-09 19:23:39,524 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:23:39,525 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:23:39,525 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:23:39,526 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:23:39,526 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:23:39,527 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:23:39,554 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:23:39,555 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:23:39,556 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:23:39,556 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:23:39,557 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:23:39,557 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:23:39,558 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:23:39,558 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:23:39,559 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:23:39,559 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:23:39,560 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:23:39,560 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:23:39,561 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:23:39,561 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:23:39,562 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:23:39,562 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-04-09 19:23:39,563 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-04-09 19:23:39,564 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-04-09 19:23:39,564 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-04-09 19:23:39,565 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-04-09 19:23:39,565 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-04-09 19:23:39,566 [INFO] Argument:325 - Argument : Statevalue: null
+2024-04-09 19:23:39,566 [INFO] Argument:335 - Argument : Statevalue: null
+2024-04-09 19:23:39,567 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-04-09 19:23:39,567 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-04-09 19:23:39,568 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:23:39,568 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:23:39,569 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:23:39,569 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:23:39,570 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:23:39,570 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:23:39,571 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:23:39,571 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:23:39,572 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:23:39,573 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:23:39,573 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:23:39,574 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:23:39,574 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-04-09 19:23:39,575 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-04-09 19:23:39,575 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:23:39,576 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:23:39,576 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-04-09 19:23:39,577 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-04-09 19:23:39,680 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 19:23:39,783 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 19:23:39,908 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 19:23:40,004 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 19:23:40,363 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 19:23:40,493 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 19:23:40,611 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 19:23:40,708 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 19:23:40,747 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 19:23:40,823 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 19:23:40,930 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 19:23:41,068 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 19:23:41,139 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 19:23:41,262 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 19:23:41,460 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 19:23:41,619 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 19:23:41,671 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 19:23:41,762 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 19:23:41,868 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 19:23:42,010 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 19:23:42,172 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 19:23:42,357 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 19:23:42,448 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 19:23:42,685 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 19:23:46,063 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3145mS.
+2024-04-09 19:23:46,068 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 19:23:46,112 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 19:23:47,502 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1435mS.
+2024-04-09 19:23:47,521 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 18mS.
+2024-04-09 19:23:47,529 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-04-09 19:25:47,025 [INFO] Gpio:277 - dependency for GPIO [DCMI, I2C1, I2C2, RCC, UART4]
+2024-04-09 19:26:24,498 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 780958248 Bytes (1073741824)
+2024-04-09 19:26:29,833 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 817569304 Bytes (1073741824)
+2024-04-09 19:26:35,474 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 387094288 Bytes (1073741824)
+2024-04-09 19:26:45,202 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-04-09 19:26:45,203 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-04-09 19:26:45,204 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:26:45,204 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: I2C
+2024-04-09 19:26:45,205 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DCMI
+2024-04-09 19:26:45,205 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-04-09 19:26:45,206 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: DMA
+2024-04-09 19:26:45,207 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: UART
+2024-04-09 19:26:45,207 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-04-09 19:26:45,217 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.0.202403141607\\db\
+2024-04-09 19:26:45,222 [INFO] Argument:325 - Argument : hdmavalue: null
+2024-04-09 19:26:45,223 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:26:45,223 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:26:45,224 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Stream0
+2024-04-09 19:26:45,224 [INFO] Argument:325 - Argument : Initvalue: null
+2024-04-09 19:26:45,225 [INFO] Argument:327 - 	 sub Args: 
+2024-04-09 19:26:45,226 [INFO] Argument:325 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:26:45,226 [INFO] Argument:335 - Argument : Requestvalue: DMA_REQUEST_DCMI
+2024-04-09 19:26:45,227 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:26:45,227 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2024-04-09 19:26:45,228 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:26:45,228 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2024-04-09 19:26:45,229 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:26:45,229 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2024-04-09 19:26:45,230 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:26:45,230 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_WORD
+2024-04-09 19:26:45,231 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:26:45,231 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_WORD
+2024-04-09 19:26:45,232 [INFO] Argument:325 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:26:45,232 [INFO] Argument:335 - Argument : Modevalue: DMA_NORMAL
+2024-04-09 19:26:45,233 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:26:45,233 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_VERY_HIGH
+2024-04-09 19:26:45,234 [INFO] Argument:325 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:26:45,234 [INFO] Argument:335 - Argument : FIFOModevalue: DMA_FIFOMODE_DISABLE
+2024-04-09 19:26:45,235 [INFO] Argument:325 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:26:45,235 [INFO] Argument:335 - Argument : FIFOThresholdvalue: null
+2024-04-09 19:26:45,236 [INFO] Argument:325 - Argument : MemBurstvalue: null
+2024-04-09 19:26:45,236 [INFO] Argument:335 - Argument : MemBurstvalue: null
+2024-04-09 19:26:45,237 [INFO] Argument:325 - Argument : PeriphBurstvalue: null
+2024-04-09 19:26:45,237 [INFO] Argument:335 - Argument : PeriphBurstvalue: null
+2024-04-09 19:26:45,238 [INFO] Argument:325 - Argument : Lockvalue: null
+2024-04-09 19:26:45,238 [INFO] Argument:335 - Argument : Lockvalue: null
+2024-04-09 19:26:45,239 [INFO] Argument:325 - Argument : Statevalue: null
+2024-04-09 19:26:45,240 [INFO] Argument:335 - Argument : Statevalue: null
+2024-04-09 19:26:45,240 [INFO] Argument:325 - Argument : Parentvalue: null
+2024-04-09 19:26:45,241 [INFO] Argument:335 - Argument : Parentvalue: null
+2024-04-09 19:26:45,241 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:26:45,242 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2024-04-09 19:26:45,242 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:26:45,243 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2024-04-09 19:26:45,243 [INFO] Argument:325 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:26:45,244 [INFO] Argument:335 - Argument : XferM1CpltCallbackvalue: null
+2024-04-09 19:26:45,244 [INFO] Argument:325 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:26:45,245 [INFO] Argument:335 - Argument : XferM1HalfCpltCallbackvalue: null
+2024-04-09 19:26:45,245 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:26:45,246 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2024-04-09 19:26:45,246 [INFO] Argument:325 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:26:45,247 [INFO] Argument:335 - Argument : XferAbortCallbackvalue: null
+2024-04-09 19:26:45,247 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2024-04-09 19:26:45,248 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2024-04-09 19:26:45,248 [INFO] Argument:325 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:26:45,249 [INFO] Argument:335 - Argument : StreamBaseAddressvalue: null
+2024-04-09 19:26:45,250 [INFO] Argument:325 - Argument : StreamIndexvalue: null
+2024-04-09 19:26:45,251 [INFO] Argument:335 - Argument : StreamIndexvalue: null
+2024-04-09 19:26:45,355 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp_save
+2024-04-09 19:26:45,457 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\license.tmp
+2024-04-09 19:26:45,580 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp_save
+2024-04-09 19:26:45,677 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\gpio.tmp
+2024-04-09 19:26:46,029 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp_save
+2024-04-09 19:26:46,136 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\cortex.tmp
+2024-04-09 19:26:46,279 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp_save
+2024-04-09 19:26:46,378 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma.tmp
+2024-04-09 19:26:46,416 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp_save
+2024-04-09 19:26:46,492 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\dma_GV.tmp
+2024-04-09 19:26:46,601 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c_save
+2024-04-09 19:26:46,753 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_it.c
+2024-04-09 19:26:46,836 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h_save
+2024-04-09 19:26:46,957 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_it.h
+2024-04-09 19:26:47,150 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c_save
+2024-04-09 19:26:47,300 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\stm32h7xx_hal_msp.c
+2024-04-09 19:26:47,352 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp_save
+2024-04-09 19:26:47,437 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\MXTmpFiles\system.tmp
+2024-04-09 19:26:47,539 [INFO] CodeEngine:311 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h_save
+2024-04-09 19:26:47,679 [INFO] CodeEngine:335 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\stm32h7xx_hal_conf.h
+2024-04-09 19:26:47,836 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h_save
+2024-04-09 19:26:47,999 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Inc\main.h
+2024-04-09 19:26:48,072 [INFO] CodeEngine:255 - oldGeneratedFile, U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c_save
+2024-04-09 19:26:48,300 [INFO] CodeEngine:279 - Generated code: U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\Core\Src\main.c
+2024-04-09 19:26:51,638 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 3101mS.
+2024-04-09 19:26:51,643 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-04-09 19:26:51,689 [INFO] ConfigFileManager:1503 - The Die is : DIE450
+2024-04-09 19:26:52,998 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1355mS.
+2024-04-09 19:26:53,017 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 18mS.
+2024-04-09 19:26:53,025 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.

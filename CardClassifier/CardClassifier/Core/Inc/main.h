@@ -28,10 +28,11 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32h7xx_hal.h"
-#include "lcd.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "camera.h"
+#include "lcd.h"
 
 /* USER CODE END Includes */
 
@@ -58,6 +59,14 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define CAM_RST_Pin GPIO_PIN_5
+#define CAM_RST_GPIO_Port GPIOC
+#define PWDN_Pin GPIO_PIN_0
+#define PWDN_GPIO_Port GPIOB
+#define CAPTURE_Pin GPIO_PIN_10
+#define CAPTURE_GPIO_Port GPIOD
+#define LED_Pin GPIO_PIN_11
+#define LED_GPIO_Port GPIOD
 
 /* USER CODE BEGIN Private defines */
 
