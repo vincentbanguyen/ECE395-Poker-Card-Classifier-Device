@@ -128,33 +128,8 @@ int main(void)
   ov7670_read(0x15,data);
   sprintf(buffer, "Addr:0x15; D:%x;", *data);
 
-  // CONFIG CAM REGISTERS
+  // RESET CAMERA
   ov7670_init(&hi2c1);
-  ov7670_write(0x12,0x0C);
-  ov7670_write(0x40,0xD0); //Enable RGB
-  ov7670_write(0x13,0x20);// Enable banding filter
-  ov7670_write(0x3B,0x12);// Banding filter settings
-  //  ov7670_write(0x10,0x40); // Adjust Exposure time
-  //  ov7670_write(0x13,0x00);// Disable fast AGC/AEC algorithm and banding filter
-
-  // PRINT IMAGE LOG
-  uint32_t imagedata[176 * 144 /2];
-  for (int i = 0; i < 176*144 / 2; ++i) {
-    imagedata[i] = 0;
-  }
-
-  sprintf(buffer, "imagedata address: %x\r\n", imagedata); //24073924
-  HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-  imagedata[0] = 0xFF; // Check if index 0 properly overwritten
-  ov7670_startCap(imagedata);
-
-  for (int i = 0; i < 176*144 / 2; ++i) {
-  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata[i]);
-  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-  	HAL_Delay(20);
-  }
-
-
 
 
   ///// END OF OV7670 CAMERA /////

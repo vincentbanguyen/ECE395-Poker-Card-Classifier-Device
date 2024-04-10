@@ -1,10 +1,10 @@
-19:27:06 **** Incremental Build of configuration Debug for project CardClassifier ****
+19:33:40 **** Incremental Build of configuration Debug for project CardClassifier ****
 make -j12 all 
 arm-none-eabi-size  CardClassifier.elf 
    text	   data	    bss	    dec	    hex	filename
-  40344	    100	   2428	  42872	   a778	CardClassifier.elf
+  45680	    104	   2432	  48216	   bc58	CardClassifier.elf
 Finished building: default.size.stdout
  
 
-19:27:07 Build Finished. 0 errors, 0 warnings. (took 556ms)
+19:33:40 Build Finished. 0 errors, 0 warnings. (took 684ms)
 

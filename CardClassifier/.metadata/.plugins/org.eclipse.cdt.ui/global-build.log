@@ -1,21 +1,162 @@
-19:26:55 **** Incremental Build of configuration Debug for project CardClassifier ****
+19:33:32 **** Incremental Build of configuration Debug for project CardClassifier ****
 make -j12 all 
+arm-none-eabi-gcc "../Core/Src/camera.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/camera.d" -MT"Core/Src/camera.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/camera.o"
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H743xx -c -I../Core/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:146:40: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t *' {aka 'long unsigned int *'} [-Wformat=]
+  146 |   sprintf(buffer, "imagedata address: %x\r\n", imagedata); //24073924
+      |                                       ~^       ~~~~~~~~~
+      |                                        |       |
+      |                                        |       uint32_t * {aka long unsigned int *}
+      |                                        unsigned int
+      |                                       %ln
+../Core/Src/main.c:147:36: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  147 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                                    ^~~~~~
+../Core/Src/main.c:21:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   20 | #include "main.h"
+  +++ |+#include <string.h>
+   21 | 
+../Core/Src/main.c:147:36: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  147 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                                    ^~~~~~
+../Core/Src/main.c:147:36: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:147:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  147 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:463,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c: In function 'ov7670_write':
+../Core/Src/main.c:149:19: warning: passing argument 1 of 'ov7670_startCap' makes integer from pointer without a cast [-Wint-conversion]
+  149 |   ov7670_startCap(imagedata);
+      |                   ^~~~~~~~~
+      |                   |
+      |                   uint32_t * {aka long unsigned int *}
+In file included from ../Core/Inc/main.h:34:
+../Core/Inc/camera.h:15:35: note: expected 'uint32_t' {aka 'long unsigned int'} but argument is of type 'uint32_t *' {aka 'long unsigned int *'}
+   15 | uint32_t ov7670_startCap(uint32_t destAddress);
+      |                          ~~~~~~~~~^~~~~~~~~~~
+../Core/Src/camera.c:17:48: warning: passing argument 3 of 'HAL_I2C_Master_Transmit' from incompatible pointer type [-Wincompatible-pointer-types]
+   17 |   ret = HAL_I2C_Master_Transmit(sp_hi2c, 0x42, &buffer, 2, HAL_MAX_DELAY);
+      |                                                ^~~~~~~
+      |                                                |
+      |                                                uint8_t (*)[2] {aka unsigned char (*)[2]}
+../Core/Src/main.c:152:44: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  152 |         sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata[i]);
+      |                                           ~^         ~~~~~~~~~~~~
+      |                                            |                  |
+      |                                            unsigned int       uint32_t {aka long unsigned int}
+      |                                           %lx
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:367,
+                 from ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:29,
+                 from ../Core/Inc/camera.h:1,
+                 from ../Core/Src/camera.c:1:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_i2c.h:624:98: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'uint8_t (*)[2]' {aka 'unsigned char (*)[2]'}
+  624 | HAL_StatusTypeDef HAL_I2C_Master_Transmit(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint8_t *pData,
+      |                                                                                         ~~~~~~~~~^~~~~
+../Core/Src/main.c:153:35: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  153 |         HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                                   ^~~~~~
+      |                                   |
+      |                                   char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:20:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   20 |   HAL_UART_Transmit(&huart4,temp,strlen(temp),10);
+      |                             ^~~~
+      |                             |
+      |                             char *
+In file included from ../Core/Inc/stm32h7xx_hal_conf.h:463:
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:22:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   22 |   HAL_UART_Transmit(&huart4,temp,strlen(temp),10);
+      |                             ^~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:14:12: warning: unused variable 'SLAVE_ADDR' [-Wunused-variable]
+   14 |   uint16_t SLAVE_ADDR = 0x42;
+      |            ^~~~~~~~~~
+../Core/Src/camera.c: In function 'ov7670_read':
+../Core/Src/camera.c:33:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   33 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:36:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   36 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:38:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   38 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c:29:12: warning: unused variable 'SLAVE_ADDR' [-Wunused-variable]
+   29 |   uint16_t SLAVE_ADDR = 0x42;
+      |            ^~~~~~~~~~
+../Core/Src/camera.c: In function 'ov7670_init':
+../Core/Src/camera.c:57:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   57 |   HAL_UART_Transmit(&huart4,temp,strlen(temp),10);
+      |                             ^~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/camera.c: In function 'ov7670_stopCap':
+../Core/Src/camera.c:73:21: warning: variable 'ret' set but not used [-Wunused-but-set-variable]
+   73 |   HAL_StatusTypeDef ret;
+      |                     ^~~
+../Core/Src/camera.c:72:8: warning: unused variable 'buffer' [-Wunused-variable]
+   72 |   char buffer [100];
+      |        ^~~~~~
+../Core/Src/camera.c: In function 'ov7670_startCap':
+../Core/Src/camera.c:89:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   89 |   HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+      |                             ^~~~~~
+      |                             |
+      |                             char *
+../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:1637:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+ 1637 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
 arm-none-eabi-gcc -o "CardClassifier.elf" @"objects.list"   -mcpu=cortex-m7 -T"U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\STM32H743VITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="CardClassifier.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 Finished building target: CardClassifier.elf
  
 arm-none-eabi-size  CardClassifier.elf 
 arm-none-eabi-objdump -h -S CardClassifier.elf  > "CardClassifier.list"
    text	   data	    bss	    dec	    hex	filename
-  40344	    100	   2428	  42872	   a778	CardClassifier.elf
+  45680	    104	   2432	  48216	   bc58	CardClassifier.elf
 Finished building: default.size.stdout
  
 Finished building: CardClassifier.list
  
-19:27:06 **** Incremental Build of configuration Debug for project CardClassifier ****
+19:33:40 **** Incremental Build of configuration Debug for project CardClassifier ****
 make -j12 all 
 arm-none-eabi-size  CardClassifier.elf 
    text	   data	    bss	    dec	    hex	filename
-  40344	    100	   2428	  42872	   a778	CardClassifier.elf
+  45680	    104	   2432	  48216	   bc58	CardClassifier.elf
 Finished building: default.size.stdout
  
