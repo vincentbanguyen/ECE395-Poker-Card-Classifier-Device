@@ -71,7 +71,8 @@ static void MX_CRC_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+uint32_t* imagedata[176 * 144 /2];
+uint32_t* imagedata128[128*128/2];
 /* USER CODE END 0 */
 
 /**
@@ -116,8 +117,8 @@ int main(void)
   MX_I2C1_Init();
   MX_I2C2_Init();
   MX_UART4_Init();
-//  MX_CRC_Init();
-//  MX_X_CUBE_AI_Init();
+  MX_CRC_Init();
+  MX_X_CUBE_AI_Init();
   /* USER CODE BEGIN 2 */
 
   ///// START OF LCD //////
@@ -162,13 +163,14 @@ int main(void)
   imagedata[0] = 0xFF; // Check if index 0 properly overwritten
   ov7670_startCap(imagedata);
 
-  for (int i = 0; i < 176*144 / 2; ++i) {
-  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata[i]);
-  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-  	HAL_Delay(20);
-  }
+  Resize_to_128(imagedata, imagedata128);
+//  for (int i = 0; i < 128*128 / 2; ++i) {
+//  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata128[i]);
+//  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+//  	HAL_Delay(20);
+//  }
   ///// END OF OV7670 CAMERA /////
-
+   MX_X_CUBE_AI_Process();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -177,7 +179,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 
-//  MX_X_CUBE_AI_Process();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

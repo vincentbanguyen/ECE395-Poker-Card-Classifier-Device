@@ -14,3 +14,4 @@ uint32_t ov7670_init(I2C_HandleTypeDef *p_hi2c);
 uint32_t ov7670_stopCap();
 uint32_t ov7670_startCap(uint32_t destAddress);
 void HAL_DCMI_FrameEventCallback(DCMI_HandleTypeDef *hdcmi);
+void Resize_to_128 (uint32_t* inputimg, uint32_t* outputimg);

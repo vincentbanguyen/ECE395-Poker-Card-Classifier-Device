@@ -36,7 +36,8 @@ X-CUBE-AI/App/app_x-cube-ai.o: ../X-CUBE-AI/App/app_x-cube-ai.c \
  ../Core/Inc/camera.h ../Core/Inc/lcd.h \
  ../Middlewares/ST/AI/Inc/ai_datatypes_defines.h \
  ../X-CUBE-AI/App/network.h ../X-CUBE-AI/App/network_config.h \
- ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h
+ ../X-CUBE-AI/App/network_data.h ../X-CUBE-AI/App/network_data_params.h \
+ ../Core/Inc/lcd.h
 ../X-CUBE-AI/App/app_x-cube-ai.h:
 ../Middlewares/ST/AI/Inc/ai_platform.h:
 ../Core/Inc/main.h:
@@ -80,3 +81,4 @@ X-CUBE-AI/App/app_x-cube-ai.o: ../X-CUBE-AI/App/app_x-cube-ai.c \
 ../X-CUBE-AI/App/network_config.h:
 ../X-CUBE-AI/App/network_data.h:
 ../X-CUBE-AI/App/network_data_params.h:
+../Core/Inc/lcd.h:

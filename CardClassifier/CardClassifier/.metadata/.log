@@ -1,0 +1,30 @@
+!SESSION 2024-04-12 18:22:13.508 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-12 18:22:18.638
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-12 18:22:18.654
+!MESSAGE Log4j2 initialized with config file U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-12 18:22:21.073
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-04-13 17:18:39.413 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-04-13 17:18:43.548
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-04-13 17:18:43.548
+!MESSAGE Log4j2 initialized with config file U:\ECE395-Poker-Card-Classifier-Device\CardClassifier\CardClassifier\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-04-13 17:18:46.539
+!MESSAGE Started RMI Server, listening on port 41337

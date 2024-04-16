@@ -3,4 +3,5 @@
 ../Core/Src/camera.c:42:10:ov7670_init	112	static
 ../Core/Src/camera.c:70:10:ov7670_stopCap	8	static
 ../Core/Src/camera.c:79:10:ov7670_startCap	112	static
-../Core/Src/camera.c:93:6:HAL_DCMI_FrameEventCallback	0	static
+../Core/Src/camera.c:93:6:Resize_to_128	20	static
+../Core/Src/camera.c:114:6:HAL_DCMI_FrameEventCallback	0	static

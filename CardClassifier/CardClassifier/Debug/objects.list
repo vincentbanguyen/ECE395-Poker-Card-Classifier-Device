@@ -31,5 +31,8 @@
 "./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o"
 "./X-CUBE-AI/App/app_x-cube-ai.o"
 "./X-CUBE-AI/App/network.o"
+"./X-CUBE-AI/App/network2.o"
+"./X-CUBE-AI/App/network2_data.o"
+"./X-CUBE-AI/App/network2_data_params.o"
 "./X-CUBE-AI/App/network_data.o"
 "./X-CUBE-AI/App/network_data_params.o"

@@ -90,6 +90,27 @@ uint32_t ov7670_startCap(uint32_t destAddress)
   return 0;
 }
 
+void Resize_to_128(uint32_t* inputImg, uint32_t* outputImg) {
+    float factor_x = 172.0 / 128.0;
+    float factor_y = 148.0 / 128.0;
+
+    for (int i = 0; i < 128; i++) {
+        for (int j = 0; j < 128; j+=2) { // Increment by 2 since each inputImg element handles 2 pixels
+            int col = (int)(j * factor_x); // Calculate the column in the input image
+            int row = (int)(i * factor_y); // Calculate the row in the input image
+
+            // Calculate the position in the input image
+            // Considering that each uint32_t has two RGB565 pixels packed
+            int inputIndex = (row * 172 + col) / 2;
+
+            uint32_t Pixel = inputImg[inputIndex];
+            // Place the processed pixels in the output image
+            outputImg[(i * 128 + j) / 2] = Pixel;
+        }
+    }
+}
+
+
 void HAL_DCMI_FrameEventCallback(DCMI_HandleTypeDef *hdcmi)
 {
   if(s_dstAddress != 0) {
