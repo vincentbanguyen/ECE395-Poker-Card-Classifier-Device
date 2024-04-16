@@ -152,6 +152,16 @@ int main(void)
   //  ov7670_write(0x10,0x40); // Adjust Exposure time
   //  ov7670_write(0x13,0x00);// Disable fast AGC/AEC algorithm and banding filter
 
+
+  //Color Matrix
+  ov7670_write(0x4f,0x80);
+  ov7670_write(0x50,0x80);
+  ov7670_write(0x51,0x00);
+  ov7670_write(0x52,0x22);
+  ov7670_write(0x53,0x5E);
+  ov7670_write(0x54,0x80);
+  ov7670_write(0x58,0x9E);
+  HAL_GPIO_TogglePin (GPIOD, GPIO_PIN_11);
   // PRINT IMAGE LOG
   uint32_t imagedata[176 * 144 /2];
   for (int i = 0; i < 176*144 / 2; ++i) {
@@ -164,11 +174,11 @@ int main(void)
   ov7670_startCap(imagedata);
 
   Resize_to_128(imagedata, imagedata128);
-//  for (int i = 0; i < 128*128 / 2; ++i) {
-//  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata128[i]);
-//  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-//  	HAL_Delay(20);
-//  }
+  for (int i = 0; i < 128*128 / 2; ++i) {
+  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata128[i]);
+  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+  	HAL_Delay(20);
+  }
   ///// END OF OV7670 CAMERA /////
    MX_X_CUBE_AI_Process();
   /* USER CODE END 2 */

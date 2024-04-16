@@ -2056,3 +2056,7 @@
 2024-04-16 16:11:43,763 [WARN] IP:400 - Request for DSIHOST not yet added in STM32CubeMX or not available for this CPN
 2024-04-16 16:11:43,765 [WARN] IP:400 - Request for DSIHOST not yet added in STM32CubeMX or not available for this CPN
 2024-04-16 16:11:43,799 [INFO] MdmaTabbedPanel:213 - Cannot restore the selected Tab for MDMA
+2024-04-16 17:02:43,886 [INFO] AI:946 - getUI adding AI com.st.microxplorer.plugins.ip.ai.AI@70860c7a on STMicroelectronics.X-CUBE-AI.8.1.0
+2024-04-16 17:02:43,888 [INFO] Middleware:612 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition failed for : !SEMDeviceJjApplicationJjApplicationTemplate
+2024-04-16 17:02:43,889 [INFO] Middleware:612 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition failed for : !SEMDeviceJjApplicationJjApplicationTemplate
+2024-04-16 17:02:43,890 [INFO] Middleware:612 - instanceName : STMicroelectronics.X-CUBE-AI.8.1.0 bspName : COM Port check condition failed for : !SEMDeviceJjApplicationJjApplicationTemplate
