@@ -1,0 +1,330 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2024.04.16 18:17:45 =~=~=~=~=~=~=~=~=~=~=~=
+Write Status: 0
+Write Status: 0
+Initializing OV7670...
+Read_Transmit Status: 0
+Read_Receive Status: 0
+Address: f; Data: 43
+Write Status: 0
+Write Status: 0
+Read_Transmit Status: 0
+Read_Receive Status: 0
+Address: 15; Data: 81
+Write Status: 0
+Write Status: 0
+Initializing OV7670...
+Read_Transmit Status: 0
+Read_Receive Status: 0
+Address: f; Data: 43
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+Write Status: 0
+imagedata address: 240739e8
+Return code: 0
+index: 0, data: 0
+index: 1, data: 0
+index: 2, data: 0
+index: 3, data: 0
+index: 4, data: 0
+index: 5, data: 11850041
+index: 6, data: 41474147
+index: 7, data: 41884188
+index: 8, data: 41884188
+index: 9, data: 49894989
+index: 10, data: 49894989
+index: 11, data: 49c949c9
+index: 12, data: 51c951c9
+index: 13, data: 51ca51c9
+index: 14, data: 51ca51ca
+index: 15, data: 520a520a
+index: 16, data: 59cb590a
+index: 17, data: 5a0a5acb
+index: 18, data: 5a0b5a0b
+index: 19, data: 5a0b5a0b
+index: 20, data: 5a0b5a0b
+index: 21, data: 420b420b
+index: 22, data: 420b420c
+index: 23, data: 424c420c
+index: 24, data: 424c424c
+index: 25, data: 424c424c
+index: 26, data: 424c424c
+index: 27, data: 4a4d4a4c
+index: 28, data: 4a4c4a4d
+index: 29, data: 424c424c
+index: 30, data: 424c424c
+index: 31, data: 424c424c
+index: 32, data: 524e4a8d
+index: 33, data: 528d4a8e
+index: 34, data: 528e528e
+index: 35, data: 82d082cf
+index: 36, data: 5bcf5ad0
+index: 37, data: 8bd08a0f
+index: 38, data: 8b108b11
+index: 39, data: 93529351
+index: 40, data: 93519352
+index: 41, data: 9b539352
+index: 42, data: 93519353
+index: 43, data: 93518b51
+index: 44, data: 8b519352
+index: 45, data: 93118b10
+index: 46, data: 8b118b11
+index: 47, data: 52cf5acf
+index: 48, data: 5a8f5a8e
+index: 49, data: 528e5a8f
+index: 50, data: 528d528d
+index: 51, data: 524e528d
+index: 52, data: 4a8d4a8e
+index: 53, data: 4a4d4a4d
+index: 54, data: 4a4d4a4d
+index: 55, data: 4a4c4a4d
+index: 56, data: 4a4c4a4d
+index: 57, data: 424c420c
+index: 58, data: 4a0c4a4c
+index: 59, data: 5a0b5a0c
+index: 60, data: 5a0b5a0b
+index: 61, data: 5a0b5a0b
+index: 62, data: 59cb590b
+index: 63, data: 520a52cb
+index: 64, data: 0
+index: 65, data: 0
+index: 66, data: 0
+index: 67, data: 0
+index: 68, data: 0
+index: 69, data: 11850841
+index: 70, data: 49484188
+index: 71, data: 49884148
+index: 72, data: 41894188
+index: 73, data: 51895189
+index: 74, data: 51c95189
+index: 75, data: 51ca51c9
+index: 76, data: 51c951ca
+index: 77, data: 51ca51c9
+index: 78, data: 51ca51ca
+index: 79, data: 59ca59ca
+index: 80, data: 51ca51ca
+index: 81, data: 5aca51ca
+index: 82, data: 59ca59ca
+index: 83, data: 59ca59ca
+index: 84, data: 59ca51ca
+index: 85, data: 520a520b
+index: 86, data: 59cb510a
+index: 87, data: 5a0a5acb
+index: 88, data: 520a52ca
+index: 89, data: 520a520a
+index: 90, data: 5a0b5a0a
+index: 91, data: 5a0b5aca
+index: 92, data: 59ca590b
+index: 93, data: 51cb51ca
+index: 94, data: 4a0a52ca
+index: 95, data: 520a520a
+index: 96, data: 420c420c
+index: 97, data: 5a0b5a0c
+index: 98, data: 4a4c4a4b
+index: 99, data: 524d524d
+index: 100, data: 4a4d4a8e
+index: 101, data: 524d524d
+index: 102, data: 5a8e5a8e
+index: 103, data: 52cf528e
+index: 104, data: 5a8f5acf
+index: 105, data: 82d0828f
+index: 106, data: 5ad05ad0
+index: 107, data: 5acf5acf
+index: 108, data: 5acf5acf
+index: 109, data: 828f82cf
+index: 110, data: 5acf5a8f
+index: 111, data: 524d528d
+index: 112, data: 524d4a4d
+index: 113, data: 4a8d528e
+index: 114, data: 4a4d4a8d
+index: 115, data: 524d524d
+index: 116, data: 4a4c4a4d
+index: 117, data: 4a0d4a4c
+index: 118, data: 424c424d
+index: 119, data: 420c420c
+index: 120, data: 420c420c
+index: 121, data: 420c420c
+index: 122, data: 420b420c
+index: 123, data: 5a0b420b
+index: 124, data: 5a0b5a0b
+index: 125, data: 590b5a0b
+index: 126, data: 51ca51cb
+index: 127, data: 51ca51ca
+index: 128, data: 42
+index: 129, data: 0
+index: 130, data: 0
+index: 131, data: 0
+index: 132, data: 0
+index: 133, data: 9841841
+index: 134, data: 41484148
+index: 135, data: 41484148
+index: 136, data: 41884148
+index: 137, data: 49884187
+index: 138, data: 49884988
+index: 139, data: 49884988
+index: 140, data: 41884188
+index: 141, data: 41884188
+index: 142, data: 41894188
+index: 143, data: 41884188
+index: 144, data: 41884188
+index: 145, data: 49884988
+index: 146, data: 41884188
+index: 147, data: 49894988
+index: 148, data: 49884989
+index: 149, data: 49c94989
+index: 150, data: 498949c9
+index: 151, data: 49c94989
+index: 152, data: 49ca51c9
+index: 153, data: 51ca51ca
+index: 154, data: 520a52ca
+index: 155, data: 5a0b5a0b
+index: 156, data: 5a0b5a0b
+index: 157, data: 424c5a0b
+index: 158, data: 4a8d4a4c
+index: 159, data: 4a8d4a4d
+index: 160, data: 5ace5ace
+index: 161, data: 5acf5ace
+index: 162, data: 82d082cf
+index: 163, data: 93119311
+index: 164, data: 8b518b11
+index: 165, data: 93119351
+index: 166, data: 9b529351
+index: 167, data: 9b939b92
+index: 168, data: 83938392
+index: 169, data: 83938393
+index: 170, data: 9b938393
+index: 171, data: 9b929b93
+index: 172, data: 93929352
+index: 173, data: 93529352
+index: 174, data: 8b519352
+index: 175, data: 8b518b51
+index: 176, data: 8b518310
+index: 177, data: 83108b51
+index: 178, data: 82108310
+index: 179, data: 82d082cf
+index: 180, data: 82d082d0
+index: 181, data: 5a8f5acf
+index: 182, data: 5a8f5a8f
+index: 183, data: 528e528e
+index: 184, data: 4a8d528e
+index: 185, data: 5a4d528d
+index: 186, data: 528d528e
+index: 187, data: 524d524d
+index: 188, data: 4a4d424d
+index: 189, data: 4a4c4a4d
+index: 190, data: 590b420c
+index: 191, data: 19c841ca
+index: 192, data: 5
+index: 193, data: 0
+index: 194, data: 0
+index: 195, data: 0
+index: 196, data: 0
+index: 197, data: 18430800
+index: 198, data: 11061106
+index: 199, data: 11061106
+index: 200, data: 11461106
+index: 201, data: 19061106
+index: 202, data: 19071147
+index: 203, data: 19461147
+index: 204, data: 19481947
+index: 205, data: 19471948
+index: 206, data: 19471947
+index: 207, data: 41884188
+index: 208, data: 41894188
+index: 209, data: 49c94989
+index: 210, data: 49ca49c9
+index: 211, data: 59ca51ca
+index: 212, data: 5acb59ca
+index: 213, data: 424b5a0c
+index: 214, data: 424d424b
+index: 215, data: 4a4c4a4d
+index: 216, data: 528e528e
+index: 217, data: 528e528e
+index: 218, data: 5a8e528d
+index: 219, data: 5acf5acf
+index: 220, data: 82cf82cf
+index: 221, data: 8bd08acf
+index: 222, data: 8b118b11
+index: 223, data: 93118b11
+index: 224, data: 93929b52
+index: 225, data: 9b529392
+index: 226, data: 9bd39b93
+index: 227, data: 8bd483d4
+index: 228, data: 8bd48bd4
+index: 229, data: 8cd48bd4
+index: 230, data: 94d58b14
+index: 231, data: 8c159415
+index: 232, data: 94159415
+index: 233, data: 94159415
+index: 234, data: 94169415
+index: 235, data: 94159416
+index: 236, data: 8b159415
+index: 237, data: 8bd48bd4
+index: 238, data: 8bd48bd4
+index: 239, data: 83d48394
+index: 240, data: 839483d4
+index: 241, data: 83d48bd4
+index: 242, data: 9b938393
+index: 243, data: 9b939b93
+index: 244, data: 9b529b93
+index: 245, data: 9b529b52
+index: 246, data: 93119352
+index: 247, data: 8b118b11
+index: 248, data: 8b508b12
+index: 249, data: 93119310
+index: 250, data: 8b108b51
+index: 251, data: 821083d0
+index: 252, data: 82d082cf
+index: 253, data: 82cf82cf
+index: 254, data: 5a8f82cf
+index: 255, data: 410a5a4e
+index: 256, data: 46
+index: 257, data: 0
+index: 258, data: 0
+index: 259, data: 0
+index: 260, data: 0
+index: 261, data: 10410000
+index: 262, data: 11c510c4
+index: 263, data: 11061106
+index: 264, data: 9050906
+index: 265, data: 19471946
+index: 266, data: 41884148
+index: 267, data: 49884188
+index: 268, data: 51ca51c9
+index: 269, data: 51ca51ca
+index: 270, data: 5a0b5aca
+index: 271, data: 420b5a0c
+index: 272, data: 424c424b
+index: 273, data: 424c424c
+index: 274, data: 4a8d4a4d
+index: 275, data: 524d528d
+index: 276, data: 528e528d
+index: 277, data: 528e528e
+index: 278, data: 5acf5a8e
+index: 279, data: 5acf5a8f
+index: 280, data: 82cf82cf
+index: 281, data: 82cf82cf
+index: 282, data: 83d082cf
+index: 283, data: 83108311
+index: 284, data: 8b118310
+index: 285, data: 8b119311
+index: 286, data: 93529351
+index: 287, data: 
