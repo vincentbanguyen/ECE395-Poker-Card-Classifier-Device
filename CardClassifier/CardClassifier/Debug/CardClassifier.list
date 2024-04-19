@@ -23,27 +23,27 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
   9 .ARM.attributes 0000002e  00000000  00000000  0006fd18  2**0
                   CONTENTS, READONLY
- 10 .debug_info   00022b04  00000000  00000000  0006fd46  2**0
+ 10 .debug_info   00022b0d  00000000  00000000  0006fd46  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 11 .debug_abbrev 000046ba  00000000  00000000  0009284a  2**0
+ 11 .debug_abbrev 000046ba  00000000  00000000  00092853  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 12 .debug_loclists 0000ac04  00000000  00000000  00096f04  2**0
+ 12 .debug_loclists 0000ac04  00000000  00000000  00096f0d  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_aranges 00001090  00000000  00000000  000a1b08  2**3
+ 13 .debug_aranges 00001090  00000000  00000000  000a1b18  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_rnglists 00000f7a  00000000  00000000  000a2b98  2**0
+ 14 .debug_rnglists 00000f7a  00000000  00000000  000a2ba8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_macro  00039dab  00000000  00000000  000a3b12  2**0
+ 15 .debug_macro  00039dab  00000000  00000000  000a3b22  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_line   000238d6  00000000  00000000  000dd8bd  2**0
+ 16 .debug_line   000238d6  00000000  00000000  000dd8cd  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_str    0016668f  00000000  00000000  00101193  2**0
+ 17 .debug_str    0016668f  00000000  00000000  001011a3  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .comment      00000093  00000000  00000000  00267822  2**0
+ 18 .comment      00000093  00000000  00000000  00267832  2**0
                   CONTENTS, READONLY
- 19 .debug_frame  00003de0  00000000  00000000  002678b8  2**2
+ 19 .debug_frame  00003de0  00000000  00000000  002678c8  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_line_str 00000073  00000000  00000000  0026b698  2**0
+ 20 .debug_line_str 00000073  00000000  00000000  0026b6a8  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -987,55 +987,55 @@ void lcd_init (I2C_HandleTypeDef* p_hi2c)
 	lcd_send_cmd (0x30);
  8000a24:	2030      	movs	r0, #48	@ 0x30
  8000a26:	f7ff ff9d 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(5);  // wait for >4.1ms
- 8000a2a:	2005      	movs	r0, #5
+	HAL_Delay(50);  // wait for >4.1ms
+ 8000a2a:	2032      	movs	r0, #50	@ 0x32
  8000a2c:	f000 fd92 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x30);
  8000a30:	2030      	movs	r0, #48	@ 0x30
  8000a32:	f7ff ff97 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(1);  // wait for >100us
- 8000a36:	2001      	movs	r0, #1
+	HAL_Delay(50);  // wait for >100us
+ 8000a36:	2032      	movs	r0, #50	@ 0x32
  8000a38:	f000 fd8c 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x30);
  8000a3c:	2030      	movs	r0, #48	@ 0x30
  8000a3e:	f7ff ff91 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(10);
- 8000a42:	200a      	movs	r0, #10
+	HAL_Delay(50);
+ 8000a42:	2032      	movs	r0, #50	@ 0x32
  8000a44:	f000 fd86 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x20);  // 4bit mode
  8000a48:	2020      	movs	r0, #32
  8000a4a:	f7ff ff8b 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(10);
- 8000a4e:	200a      	movs	r0, #10
+	HAL_Delay(50);
+ 8000a4e:	2032      	movs	r0, #50	@ 0x32
  8000a50:	f000 fd80 	bl	8001554 <HAL_Delay>
 
   // dislay initialisation
 	lcd_send_cmd (0x28); // Function set --> DL=0 (4 bit mode), N = 1 (2 line display) F = 0 (5x8 characters)
  8000a54:	2028      	movs	r0, #40	@ 0x28
  8000a56:	f7ff ff85 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(1);
- 8000a5a:	2001      	movs	r0, #1
+	HAL_Delay(50);
+ 8000a5a:	2032      	movs	r0, #50	@ 0x32
  8000a5c:	f000 fd7a 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x08); //Display on/off control --> D=0,C=0, B=0  ---> display off
  8000a60:	2008      	movs	r0, #8
  8000a62:	f7ff ff7f 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(1);
- 8000a66:	2001      	movs	r0, #1
+	HAL_Delay(50);
+ 8000a66:	2032      	movs	r0, #50	@ 0x32
  8000a68:	f000 fd74 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x01);  // clear display
  8000a6c:	2001      	movs	r0, #1
  8000a6e:	f7ff ff79 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(1);
- 8000a72:	2001      	movs	r0, #1
+	HAL_Delay(50);
+ 8000a72:	2032      	movs	r0, #50	@ 0x32
  8000a74:	f000 fd6e 	bl	8001554 <HAL_Delay>
-	HAL_Delay(1);
- 8000a78:	2001      	movs	r0, #1
+	HAL_Delay(50);
+ 8000a78:	2032      	movs	r0, #50	@ 0x32
  8000a7a:	f000 fd6b 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x06); //Entry mode set --> I/D = 1 (increment cursor) & S = 0 (no shift)
  8000a7e:	2006      	movs	r0, #6
  8000a80:	f7ff ff70 	bl	8000964 <lcd_send_cmd>
-	HAL_Delay(1);
- 8000a84:	2001      	movs	r0, #1
+	HAL_Delay(50);
+ 8000a84:	2032      	movs	r0, #50	@ 0x32
  8000a86:	f000 fd65 	bl	8001554 <HAL_Delay>
 	lcd_send_cmd (0x0C); //Display on/off control --> D = 1, C and B = 0. (Cursor and blink, last two bits)
  8000a8a:	200c      	movs	r0, #12

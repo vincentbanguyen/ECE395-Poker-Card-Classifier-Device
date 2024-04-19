@@ -10109,34 +10109,34 @@ LOAD C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
 LOAD C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard\libm.a
 LOAD C:/ST/STM32CubeIDE_1.13.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.win32_1.0.100.202403111256/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+dp/hard\libgcc.a
 
-.debug_info     0x00000000    0x22b04
+.debug_info     0x00000000    0x22b0d
  .debug_info    0x00000000     0x15fa ./Core/Src/camera.o
- .debug_info    0x000015fa      0xab4 ./Core/Src/lcd.o
- .debug_info    0x000020ae     0x2b51 ./Core/Src/main.o
- .debug_info    0x00004bff     0x212a ./Core/Src/stm32h7xx_hal_msp.o
- .debug_info    0x00006d29      0x752 ./Core/Src/stm32h7xx_it.o
- .debug_info    0x0000747b      0x175 ./Core/Src/sysmem.o
- .debug_info    0x000075f0      0xd1c ./Core/Src/system_stm32h7xx.o
- .debug_info    0x0000830c       0x30 ./Core/Startup/startup_stm32h743vitx.o
- .debug_info    0x0000833c     0x1672 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
- .debug_info    0x000099ae     0x1333 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
- .debug_info    0x0000ace1      0x5d7 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
- .debug_info    0x0000b2b8      0x350 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
- .debug_info    0x0000b608      0xd3c ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dcmi.o
- .debug_info    0x0000c344      0xe6e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
- .debug_info    0x0000d1b2      0x8f0 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
- .debug_info    0x0000daa2      0xc87 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
- .debug_info    0x0000e729     0x3f18 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
- .debug_info    0x00012641      0xd9d ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
- .debug_info    0x000133de     0x117b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
- .debug_info    0x00014559     0x11bc ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
- .debug_info    0x00015715     0x192d ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
- .debug_info    0x00017042     0x64de ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
- .debug_info    0x0001d520     0x129e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
- .debug_info    0x0001e7be     0x18c5 ./X-CUBE-AI/App/app_x-cube-ai.o
- .debug_info    0x00020083     0x22fd ./X-CUBE-AI/App/network.o
- .debug_info    0x00022380      0x633 ./X-CUBE-AI/App/network_data.o
- .debug_info    0x000229b3      0x151 ./X-CUBE-AI/App/network_data_params.o
+ .debug_info    0x000015fa      0xabd ./Core/Src/lcd.o
+ .debug_info    0x000020b7     0x2b51 ./Core/Src/main.o
+ .debug_info    0x00004c08     0x212a ./Core/Src/stm32h7xx_hal_msp.o
+ .debug_info    0x00006d32      0x752 ./Core/Src/stm32h7xx_it.o
+ .debug_info    0x00007484      0x175 ./Core/Src/sysmem.o
+ .debug_info    0x000075f9      0xd1c ./Core/Src/system_stm32h7xx.o
+ .debug_info    0x00008315       0x30 ./Core/Startup/startup_stm32h743vitx.o
+ .debug_info    0x00008345     0x1672 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.o
+ .debug_info    0x000099b7     0x1333 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_cortex.o
+ .debug_info    0x0000acea      0x5d7 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc.o
+ .debug_info    0x0000b2c1      0x350 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_crc_ex.o
+ .debug_info    0x0000b611      0xd3c ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dcmi.o
+ .debug_info    0x0000c34d      0xe6e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.o
+ .debug_info    0x0000d1bb      0x8f0 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.o
+ .debug_info    0x0000daab      0xc87 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_gpio.o
+ .debug_info    0x0000e732     0x3f18 ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c.o
+ .debug_info    0x0001264a      0xd9d ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_i2c_ex.o
+ .debug_info    0x000133e7     0x117b ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_pwr_ex.o
+ .debug_info    0x00014562     0x11bc ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.o
+ .debug_info    0x0001571e     0x192d ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc_ex.o
+ .debug_info    0x0001704b     0x64de ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart.o
+ .debug_info    0x0001d529     0x129e ./Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_uart_ex.o
+ .debug_info    0x0001e7c7     0x18c5 ./X-CUBE-AI/App/app_x-cube-ai.o
+ .debug_info    0x0002008c     0x22fd ./X-CUBE-AI/App/network.o
+ .debug_info    0x00022389      0x633 ./X-CUBE-AI/App/network_data.o
+ .debug_info    0x000229bc      0x151 ./X-CUBE-AI/App/network_data_params.o
 
 .debug_abbrev   0x00000000     0x46ba
  .debug_abbrev  0x00000000      0x2d8 ./Core/Src/camera.o
