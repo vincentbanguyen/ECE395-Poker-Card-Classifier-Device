@@ -125,9 +125,9 @@ int main(void)
 
   lcd_init(&hi2c2);
   lcd_clear();
-  lcd_send_string("Initializing...");
-  lcd_clear();
-  lcd_send_string("81 loaded to x15");
+//  lcd_send_string("Initializing...");
+//  lcd_clear();
+//  lcd_send_string("81 loaded to x15");
   ///// END OF LCD /////
 
   ///// START OF OV7670 CAMERA /////
