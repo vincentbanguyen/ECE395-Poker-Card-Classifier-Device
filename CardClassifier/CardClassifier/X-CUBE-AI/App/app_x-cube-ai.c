@@ -215,12 +215,12 @@ int acquire_and_process_data(void)
           // Assuming the AI expects RGB values in separate consecutive bytes
 
           // Store first pixel
-          data_in_1[6*i] = (float) red1_8bit / 255;
-          data_in_1[6*i+1] = (float) green1_8bit / 255;
-          data_in_1[6*i+2] = (float) blue1_8bit / 255;
-          data_in_1[6*i+3] = (float) red2_8bit / 255;
-          data_in_1[6*i+4] = (float) green2_8bit / 255;
-          data_in_1[6*i+5] = (float) blue2_8bit /255;
+          data_in_1[6*i] = (float) green2_8bit / 255;
+          data_in_1[6*i+1] = (float) blue2_8bit / 255;
+          data_in_1[6*i+2] = (float) red2_8bit / 255;
+          data_in_1[6*i+3] = (float) green1_8bit / 255;
+          data_in_1[6*i+4] = (float) blue1_8bit / 255;
+          data_in_1[6*i+5] = (float) red1_8bit /255;
   }
   return 0;
 }
@@ -265,16 +265,15 @@ int post_process(void)
   		strcpy(suit, "Diamonds");
   	} else if (index >= 27 && index <= 39) {
   		strcpy(suit, "Hearts");
-  	} else if (index >= 41 && index <= 53) {
+  	} else if (index >= 40 && index <= 52) {
   		strcpy(suit, "Spades");
-  		offset = -2;
   	} else if (index == 0) {
   	  lcd_clear();
   	  lcd_send_string("Black Joker");
   	  return 0;
-  	} else {	//index == 40, red Jocker
+  	} else {	//index == 53, red Jocker
   		lcd_clear();
-    	lcd_send_string("Red Joker");
+    	lcd_send_string("Nothing");
     	return 0;
   	}
   	int ranknum = (index + offset) % 13;
