@@ -5,7 +5,7 @@ import os
 pixel_data = []
 found_start = False
 
-with open('Playing Card Classifier Model/logdata/H9.log', 'r', encoding='utf-8', errors='ignore') as file:
+with open('Playing Card Classifier Model/log_white_led/DQ.log', 'r', encoding='utf-8', errors='ignore') as file:
     for line in file:
         # skip straight to the data
         if not found_start:
