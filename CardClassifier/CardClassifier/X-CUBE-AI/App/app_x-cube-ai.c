@@ -239,17 +239,17 @@ int post_process(void)
 //		int shift = (i % 4) * 8;
 //		output[i/4] += (data_out_1[i] << shift);
 //	}
-	float temp = 0;
-	for (int i = 0; i < 54; ++i) {
-//		ai_i8 bytes[4];
-//		uint32_t temp = ((uint32_t)bytes[0] << 24) | ((uint32_t)bytes[1] << 16) | ((uint32_t)bytes[2] << 8) | bytes[3];
-//		memcpy(&output[i], &temp, sizeof(output[i]));
-		temp += data_out_1[i];
-	  	sprintf(buffer, "index: %d, data: %f\r\n",i, data_out_1[i]);
-	  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-	  	HAL_Delay(20);
-	}
-  	sprintf(buffer, "temp: %f\r\n", temp);
+//	float temp = 0;
+//	for (int i = 0; i < 54; ++i) {
+////		ai_i8 bytes[4];
+////		uint32_t temp = ((uint32_t)bytes[0] << 24) | ((uint32_t)bytes[1] << 16) | ((uint32_t)bytes[2] << 8) | bytes[3];
+////		memcpy(&output[i], &temp, sizeof(output[i]));
+//		temp += data_out_1[i];
+//	  	sprintf(buffer, "index: %d, data: %f\r\n",i, data_out_1[i]);
+//	  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+//	  	HAL_Delay(20);
+//	}
+//  	sprintf(buffer, "temp: %f\r\n", temp);
   	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
   	HAL_Delay(20);
   	int index = indexlargest(data_out_1, 54);

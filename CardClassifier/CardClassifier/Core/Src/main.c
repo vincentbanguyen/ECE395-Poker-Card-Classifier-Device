@@ -125,17 +125,17 @@ int main(void)
 
   lcd_init(&hi2c2);
   lcd_clear();
-//  lcd_send_string("Initializing...");
+  lcd_send_string("Processing...");
 //  lcd_clear();
 //  lcd_send_string("81 loaded to x15");
   ///// END OF LCD /////
 
   ///// START OF OV7670 CAMERA /////
-  ov7670_init(&hi2c1);
-
-  // TEST WRITING 0x81 to 0x15
-  HAL_Delay(100);
-  ov7670_write(0x15,0x81);
+//  ov7670_init(&hi2c1);
+//
+//  // TEST WRITING 0x81 to 0x15
+//  HAL_Delay(100);
+//  ov7670_write(0x15,0x81);
 
   uint8_t data[100];
   char buffer [100];
@@ -174,11 +174,11 @@ int main(void)
   ov7670_startCap(imagedata);
 
   Resize_to_128(imagedata, imagedata128);
-  for (int i = 0; i < 128*128 / 2; ++i) {
-  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata128[i]);
-  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
-  	HAL_Delay(20);
-  }
+//  for (int i = 0; i < 128*128 / 2; ++i) {
+//  	sprintf(buffer, "index: %d, data: %x\r\n",i, imagedata128[i]);
+//  	HAL_UART_Transmit(&huart4,buffer,strlen(buffer),10);
+//  	HAL_Delay(20);
+//  }
   ///// END OF OV7670 CAMERA /////
    MX_X_CUBE_AI_Process();
   /* USER CODE END 2 */
